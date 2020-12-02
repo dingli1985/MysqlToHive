@@ -1,0 +1,27 @@
+<assembly>
+    <id>RELEASE</id>
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <directory>${basedir}/target</directory>
+            <outputDirectory>lib/</outputDirectory>
+            <includes>
+                <include>MysqlToHive*.jar</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>${basedir}/bin</directory>
+            <outputDirectory>bin/</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>${basedir}/config</directory>
+            <outputDirectory>config/</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>${basedir}/log</directory>
+            <outputDirectory>log/</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>

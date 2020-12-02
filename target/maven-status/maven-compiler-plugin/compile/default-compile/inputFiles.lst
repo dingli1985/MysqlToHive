@@ -1,0 +1,13 @@
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/job/JobEntry.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/exec/HiveQueryRunner.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/config/SolrConfig.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/config/ListConfig.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/Test.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/config/DruidConfig.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/config/SftpInfo.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/util/SftpUtils.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/config/StdMapConfig.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/ApplicationStart.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/config/OriMapConfig.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/job/SchedulerJob.java
+/Users/alee/工作/MysqlToHive/src/main/java/com/asiainfo/job/CommonBatchPreparedStatementsetter.java

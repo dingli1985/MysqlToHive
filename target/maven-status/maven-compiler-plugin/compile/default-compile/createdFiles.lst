@@ -1,0 +1,14 @@
+com/asiainfo/Test.class
+META-INF/spring-configuration-metadata.json
+com/asiainfo/config/OriMapConfig.class
+com/asiainfo/exec/HiveQueryRunner.class
+com/asiainfo/util/SftpUtils.class
+com/asiainfo/config/SolrConfig.class
+com/asiainfo/job/CommonBatchPreparedStatementsetter.class
+com/asiainfo/job/SchedulerJob.class
+com/asiainfo/config/StdMapConfig.class
+com/asiainfo/job/JobEntry.class
+com/asiainfo/ApplicationStart.class
+com/asiainfo/config/SftpInfo.class
+com/asiainfo/config/ListConfig.class
+com/asiainfo/config/DruidConfig.class

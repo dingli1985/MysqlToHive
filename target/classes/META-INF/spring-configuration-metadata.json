@@ -1,0 +1,95 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.asiainfo.config.OriMapConfig",
+      "name": "column-mapping-ori",
+      "type": "com.asiainfo.config.OriMapConfig"
+    },
+    {
+      "sourceType": "com.asiainfo.config.StdMapConfig",
+      "name": "column-mapping-std",
+      "type": "com.asiainfo.config.StdMapConfig"
+    },
+    {
+      "sourceType": "com.asiainfo.config.SftpInfo",
+      "name": "sftp-upload",
+      "type": "com.asiainfo.config.SftpInfo"
+    },
+    {
+      "sourceType": "com.asiainfo.config.ListConfig",
+      "name": "sync-table",
+      "type": "com.asiainfo.config.ListConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.asiainfo.config.OriMapConfig",
+      "name": "column-mapping-ori.column-mapping-map",
+      "description": "从配置文件中读取的limitSizeMap开头的数据\n 注意：名称必须与配置文件中保持一致",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.asiainfo.config.StdMapConfig",
+      "name": "column-mapping-std.column-mapping-map",
+      "description": "从配置文件中读取的limitSizeMap开头的数据\n 注意：名称必须与配置文件中保持一致",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.asiainfo.config.StdMapConfig",
+      "name": "column-mapping-std.default-value-map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.asiainfo.config.SftpInfo",
+      "name": "sftp-upload.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.asiainfo.config.SftpInfo",
+      "name": "sftp-upload.passphrase",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.asiainfo.config.SftpInfo",
+      "defaultValue": 0,
+      "name": "sftp-upload.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.asiainfo.config.SftpInfo",
+      "name": "sftp-upload.private-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.asiainfo.config.SftpInfo",
+      "name": "sftp-upload.pwd",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.asiainfo.config.SftpInfo",
+      "name": "sftp-upload.root",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.asiainfo.config.SftpInfo",
+      "name": "sftp-upload.user",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.asiainfo.config.ListConfig",
+      "name": "sync-table.cron",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.asiainfo.config.ListConfig",
+      "name": "sync-table.range-col",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.asiainfo.config.ListConfig",
+      "name": "sync-table.table-name-list",
+      "type": "java.util.List<java.lang.String>"
+    }
+  ]
+}
